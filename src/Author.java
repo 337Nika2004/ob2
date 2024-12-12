@@ -8,7 +8,6 @@ public class Author {
         this.firstName = firstName;
         this.lastName = lastName;
     }
-
     public String getFirstName() {
         return firstName;
     }
@@ -28,7 +27,6 @@ public class Author {
     public int hashCode() {
         return Objects.hash(firstName, lastName);
     }
-
     @Override
     public String toString() {
         return firstName + " " + lastName;
